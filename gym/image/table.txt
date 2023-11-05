@@ -1,0 +1,46 @@
+stores employee, member, receipts, and products 
+
+
+1)customer
+2)Adderss
+3)orders
+4)payment
+5)worker
+6)delivery mode
+7)menu
+	1)about us
+	2)contacts us
+	3)
+
+
+	customer_info
+first name
+last name
+password
+phone (or) mobile
+area
+pin
+town
+status
+
+	order
+customer 
+tor
+tod
+status
+
+	Menu
+name
+description
+price
+category
+status
+userID
+
+	Management
+pw
+name
+status
+designation
+
+	

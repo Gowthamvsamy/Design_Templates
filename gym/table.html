@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <style>
+        .div1{
+            height: 500px;
+            width: 900px;
+            margin: 78px 220px;
+            background-image: linear-gradient(to top left,#B40E02A1,#DC3545);
+            border-radius: 25px;
+        }
+        .btn{
+            color: #DC3545;
+            background-color: white;
+        }
+        .btn:hover{
+            color: white;
+            background-color: #DC3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container div1 border">
+        <div class="p-4 m-5 rounded-3">
+            <table class="table text-light">
+                <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>Delete</th>
+                    <th>update</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                    <td><button class="btn">update</button></td>
+                    <td><button class="btn">update</button></td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                    <td><button class="btn">update</button></td>
+                    <td><button class="btn">update</button></td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                    <td><button class="btn">update</button></td>
+                    <td><button class="btn">update</button></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

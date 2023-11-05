@@ -1,0 +1,426 @@
+.zip{
+    height:50px;
+    width: 250px;
+    background-image: url(./image/img1-removebg-preview.png);
+    background-size: 100% 100%;
+}
+.div1{
+    height: 28px;
+    width: 28px;
+    margin-top: -5px;
+}
+.div3{
+    font-family: 'Times New Roman', serif;
+    position: absolute;
+    margin: 5px 0px 0px 16px;
+    color: red;
+    transition: 0.8s;
+}
+.div3:hover{
+    transform: rotateY(360deg);
+}
+.div4{
+    font-family: 'Times New Roman', serif;
+    margin: -10px 0px 0px 0px;
+    transition: 0.8s;
+    color: blue;
+}
+.div4:hover{
+    transform: rotatey(360deg);
+}
+nav {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    transition: background .5s;
+}
+nav.scrolled {
+    background: #ffffff;
+}
+.sub1{
+    color: rgb(0, 0, 0);
+}
+.div5{
+    margin-top: -25px;
+}
+.div6{
+    background-image: url(./image/img7.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+}
+.div7{
+    border: 5px solid rgb(255, 255, 255);
+    height: 190px;
+    width: 200px;
+    border-radius: 0px 100px 0px 100px;
+    float: right;
+    margin: 120px 150px 0px 0px;
+    background-image: url(./image/img3.jpg);
+    background-size: 100% 100%;
+}
+.div8{
+    background-image: url(./image/img2.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+}
+.div9{
+    background-image: url(./image/img4.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+}
+.div10{
+    background-image: url(./image/img5.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+}
+.div11{
+    background-image: url(./image/img8.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+}
+
+
+
+/* <screen size:290> */
+/*  */
+/*  */
+/*  */
+
+
+
+@media screen and (min-width:270px) and (max-width:290px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .zip{
+        height:0px;
+        width: 0px;
+        background-image: url(./image/img1-emovebg-preview.png);
+        background-size: 100% 100%;
+    }
+    .div1{
+        height: 10px;
+        width: 10px;
+        font-size: 10px;
+        margin-left: 2px;
+    }
+    .div2{
+        margin: -5px 0px 0px 10px;
+    }
+    .div3{
+        font-family: 'Times New Roman', serif;
+        position: absolute;
+        margin: 0px 0px 0px 10px;
+        color: red;
+        transition: 0.8s;
+    }
+    .div3:hover{
+        transform: rotateY(360deg);
+    }
+    .div4{
+        font-family: 'Times New Roman', serif;
+        margin: -10px 0px 0px 0px;
+        transition: 0.8s;
+        color: blue;
+    }
+    .div4:hover{
+        transform: rotatey(360deg);
+    }
+    nav {
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        transition: background .5s;
+    }
+    nav.scrolled {
+        background: #ffffff;
+    }
+    .navbar{
+        background-color: aqua;
+    }
+    .collapse{
+        background-color: rgba(0, 0, 0, 0.699);
+    }
+    .sub1{
+        color: rgb(255, 255, 255);
+    }
+    .div5{
+        margin-top: -25px;
+    }
+    .div6{
+        background-image: url(./image/img7.jpg);
+        background-size: 100% 100%;
+        height: 300px;
+        width: 100%;
+    }
+    .div61{
+        width: 60%;
+    }
+    .div7{
+        border: 5px sold rgb(255, 255, 255);
+        height: 0px;
+        width: 0px;
+        border-radius: 0px 100px 0px 100px;
+        float: right;
+        margin: 120px 150px 0px 0px;
+        background-image: url(./imag/img3.jpg);
+        background-size: 100% 100%;
+    }
+    .div8{
+        background-image: url(./image/img2.jpg);
+        background-size: 100% 100%;
+        height: 300px;
+        width: 100%;
+    }
+    .div9{
+        background-image: url(./image/img4.jpg);
+        background-size: 100% 100%;
+        height: 300px;
+        width: 100%;
+    }
+    .div10{
+        background-image: url(./image/img5.jpg);
+        background-size: 100% 100%;
+        height: 300px;
+        width: 100%;
+    }
+    .div11{
+        background-image: url(./image/img8.jpg);
+        background-size: 100% 100%;
+        height: 300px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* <screen size:430> */
+/*  */
+/*  */
+/*  */
+
+
+
+@media screen and (min-width:300px) and (max-width:430px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .zip{
+        height:0px;
+        width: 0px;
+        background-image: url(./image/img1-emovebg-preview.png);
+        background-size: 100% 100%;
+    }
+    .div1{
+        height: 20px;
+        width: 20px;
+        font-size: 17px;
+        margin-left: 2px;
+    }
+    .div2{
+        margin: -5px -10px 0px -5px;
+    }
+    .navbar{
+        background-color: aqua;
+    }
+    .div3{
+        font-family: 'Times New Roman', serif;
+        position: absolute;
+        margin: 5px 0px 0px 10px;
+        color: red;
+        transition: 0.8s;
+    }
+    .div3:hover{
+        transform: rotateY(360deg);
+    }
+    .div4{
+        font-family: 'Times New Roman', serif;
+        margin: -10px 0px 0px 0px;
+        transition: 0.8s;
+        color: blue;
+    }
+    .div4:hover{
+        transform: rotatey(360deg);
+    }
+    nav {
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        transition: background .5s;
+    }
+    nav.scrolled {
+        background: #ffffff;
+    }
+    .collapse{
+        background-color: rgba(0, 0, 0, 0.699);
+    }
+    .sub1{
+        color: rgb(255, 255, 255);
+    }
+    .div5{
+        margin-top: -25px;
+    }
+    .div6{
+        background-image: url(./image/img7.jpg);
+        background-size: 100% 100%;
+        height: 350px;
+        width: 100%;
+    }
+    .div61{
+        width: 60%;
+    }
+    .div7{
+        border: 0px solid rgb(255, 255, 255);
+        height: 0px;
+        width: 0px;
+        border-radius: 0px 100px 0px 100px;
+        float: right;
+        margin: 120px 150px 0px 0px;
+        background-image: url(./imag/img3.jpg);
+        background-size: 100% 100%;
+    }
+    .div8{
+        background-image: url(./image/img2.jpg);
+        background-size: 100% 100%;
+        height: 350px;
+        width: 100%;
+    }
+    .div9{
+        background-image: url(./image/img4.jpg);
+        background-size: 100% 100%;
+        height: 350px;
+        width: 100%;
+    }
+    .div10{
+        background-image: url(./image/img5.jpg);
+        background-size: 100% 100%;
+        height: 350px;
+        width: 100%;
+    }
+    .div11{
+        background-image: url(./image/img8.jpg);
+        background-size: 100% 100%;
+        height: 350px;
+        width: 100%;
+    }
+}
+
+
+
+
+/* <screen size:850> */
+/*  */
+/*  */
+/*  */
+
+
+
+@media screen and (min-width:500px) and (max-width: 850px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .zip{
+        height:0px;
+        width: 0px;
+        background-image: url(./image/img1-emovebg-preview.png);
+        background-size: 100% 100%;
+    }
+    .div1{
+        height: 20px;
+        width: 20px;
+        font-size: 17px;
+        margin-left: 2px;
+    }
+    .div2{
+        margin: -5px 0px 0px -8px;
+    }
+    .div3{
+        font-family: 'Times New Roman', serif;
+        position: absolute;
+        margin: 5px 0px 0px 14px;
+        color: red;
+        transition: 0.8s;
+    }
+    .div3:hover{
+        transform: rotateY(360deg);
+    }
+    .div4{
+        font-family: 'Times New Roman', serif;
+        margin: -10px 0px 0px 0px;
+        transition: 0.8s;
+        color: blue;
+    }
+    .div4:hover{
+        transform: rotatey(360deg);
+    }
+    nav {
+        position: fixed;
+        height: 90px;
+        width: 100%;
+        transition: background .5s;
+    }
+    nav.scrolled {
+        background: #ffffff;
+        
+    }
+    .sub1{
+        color: rgb(0, 0, 0);
+    }
+    
+    .div5{
+        margin-top: -25px;
+    }
+    .div6{
+        background-image: url(./image/img7.jpg);
+        background-size: 100% 100%;
+        height: 600px;
+        width: 100%;
+    }
+    .div61{
+        width: 50%;
+    }
+    .div7{
+        border: 5px solid rgb(255, 255, 255);
+        height: 190px;
+        width: 200px;
+        border-radius: 0px 100px 0px 100px;
+        float: right;
+        margin: 120px 150px 0px 0px;
+        background-image: url(./image/img3.jpg);
+        background-size: 100% 100%;
+    }
+    .div8{
+        background-image: url(./image/img2.jpg);
+        background-size: 100% 100%;
+        height: 600px;
+        width: 100%;
+    }
+    .div9{
+        background-image: url(./image/img4.jpg);
+        background-size: 100% 100%;
+        height: 600px;
+        width: 100%;
+    }
+    .div10{
+        background-image: url(./image/img5.jpg);
+        background-size: 100% 100%;
+        height: 600px;
+        width: 100%;
+    }
+    .div11{
+        background-image: url(./image/img8.jpg);
+        background-size: 100% 100%;
+        height: 600px;
+        width: 100%;
+    }
+}
